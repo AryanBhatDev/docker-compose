@@ -8,3 +8,9 @@
 - npx prisma generate
 - npm run build
 - npm run start
+
+## Docker installation 
+- Install docker
+- Start postgres
+- Build the image - `docker build -t user-project .`
+- Start the image - `docker run -p 3000:3000 user-project`
